@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- George Terbeck -->
+<html lang="en">
+<head><!--this is an open tag-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Strings</title>
+    <script src = "Strings.js"></script>
+    <link href="Strings.CSS" rel = "stylesheet" type = "text/css">
+</head><!--this is a close tag-->
+<body><!--this is an open tag-->
+    <header><h1> Log In Or Whatever </h1></header><!--this is my header,-->
+    <nav>
+        <h2>Navigation</h2>
+        <a href = "Boards.HTML">Boards</a><br><!--These navigate beteween pages-->
+        <a href = "Game.HTML">Game</a><br>
+        <a href = "Index.HTML">Index</a><br>
+        <a href = "Table.HTML">Table</a><br>
+    </nav>
+    <br><!--this goes to a new line,-->
+    <form id = "loginSubmit" onsubmit = "return false"><!--this allows the button to work,-->
+        First Name: <input type = "text" id = "FName"/><!--this is where you put your first name,-->
+        <br><!--this goes to a new line,-->
+        Last Name: <input type = "text" id = "LName"/><!--this is where you put your last name,-->
+        <br><!--this goes to a new line,-->
+        Zipcode: <input type = "number" id = "Zipcode"/><!--this is where you would put an ID number,-->
+        <input type = "submit" onclick = "VerifyID();"><!-- this creates the submit button,-->
+        <p id = "Login Status" > Status </p>
+    </form><!--this is a close tag-->
+    <h2> Audio </h2><!--this is a header-->
+    <audio Controls><!--this is the audio tag-->
+        <source src = "C:\Users\Terbe\Downloads\us-lab-background-1.mp3" type = "audio/mpeg"><!--this is the audio itself-->
+        </audio><!--this is the close audio tag-->
+        <footer>
+            George Terbeck
+            <br>
+            University of Advancing Technology
+            <br>
+            2625 W Baseline Rd
+            <br>
+            Tempe, AZ 85283
+        </footer>
+</body><!--this is a close tag-->
+</html><!--this is a close tag-->

@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(147, 208, 148);
+    color: rgb(7, 7, 194);
+}
+h1
+{ 
+    text-align:center;
+    color: rgb(221, 55, 55);
+}
+
+  p
+  {
+    margin-right: 200px;
+  }
+nav
+{
+    height: 6000px;
+    width:200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
